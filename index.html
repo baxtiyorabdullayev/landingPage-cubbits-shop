@@ -26,40 +26,41 @@
         <nav>
             <img src="./Images/logo.png" alt="our logo">
             <div class="navbar-menus">
-                <a href="#">Spectacles</a>
-                <a href="#">Sunglasses</a>
-                <a href="#">Accessories</a>
-                <a href="#">Visit us</a>
-                <a href="#">Journal</a>
-                <a href="#">Virtual Try On</a>
+                <a href="#" class="subtitle">Spectacles</a>
+                <a href="#" class="subtitle">Sunglasses</a>
+                <a href="#" class="subtitle">Accessories</a>
+                <a href="#" class="subtitle">Visit us</a>
+                <a href="#" class="subtitle">Journal</a>
+                <a href="#" class="subtitle">Virtual Try On</a>
             </div>
             <div class="navbar-buttons">
-                <button class="button">Search</button>
-                <button class="button">Login</button>
-                <button class="button">Wishlist (1)</button>
-                <button class="button">Bag</button>
+                <button class="button subtitle">Search</button>
+                <button class="button subtitle">Login</button>
+                <button class="button subtitle">Wishlist (1)</button>
+                <button class="button subtitle">Bag</button>
             </div>
         </nav>
        <!-- /navbar section  -->
 
-        <!-- home page -->
-            <div class="home" id="home">
-                <p class="subtitle">Delight in the gloriously awkward</p>
-                <p class="home-title">Spectacles that embrace outliers</p>
-            </div>
-        <!-- /home page -->
-
+    <!-- home page -->
+    <div class="home" id="home">
+        <img src="./Images/home.png" alt="home page image">
+       <div class="home-text">
+        <p class="subtitle">Delight in the gloriously awkward</p>
+        <p class="home-title subtitle">Spectacles that embrace outliers</p>
+       </div>
+    </div>
+    <!-- /home page -->
     </header>
     <!-- /header section  -->
 
     <!-- main page -->
-    <main>
-        
+    <main>        
         <!-- products page -->
         <div class="products" id="products">
             <div class="products-info">
-                <p class="products-info__title">Spectacles designed for faces. The average ones, the unaverage ones and the very unaverage ones too.</p>
-                <button class="products-info__button"><i class="fa-solid fa-arrow-right"></i>Shop spectacles</button>
+                <p class="products-info__title subtitle">Spectacles <br> designed for faces. <br>The average ones, the<br> unaverage ones and the <br>very unaverage ones<br> too.</p>
+                <button class="button"><i class="fa-solid fa-arrow-right"></i>Shop spectacles</button>
             </div>
             <div class="products-images">
                 <div class="image-card">
@@ -87,7 +88,7 @@
                 <div class="image-card">
                     <div class="image-card__title">
                         <p class="subtitle">Low crest</p>
-                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
                     </div>
                     <img src="./Images/product3.png" alt="products image">
                     <div class="image-card__price">
@@ -112,13 +113,13 @@
 
         <!-- articeles page  -->
         <div class="article" id="article">
-            <p class="article-title">Here's a beautiful fact. Your eyes have ten layers. You see through so much.</p>
+            <p class="article-title">Here's a beautiful fact. Your <br> eyes have ten layers. You see <br> through so much.</p>
             <div class="article-box">
                 <div class="article-card">
                     <img src="./Images/article.png" alt="article page's photo">
                     <div class="article-card__subtitle">
-                        <p class="subtitle">All EU taxes paid.</p>
-                        <p class="subtitle">Cubitts will pay all duties and taxes on orders to the US. Only pay the price of your order.</p>
+                        <span class="subtitle">All EU taxes paid.</span>
+                        <span class="subtitle">Cubitts will pay all duties and taxes on orders to the US. Only pay the price of your order.</span>
                     </div>
                 </div>
                 <div class="article-card">
@@ -147,7 +148,7 @@
                 <img src="./Images/location2.png" alt="location page image">
                 <div class="location-text">
                     <p class="subtitle">Delight in the gloriously awkward</p>
-                    <p class="location-text__title">Visit us in the real three-dimensional world</p>
+                    <p class="location-text__title subtitle">Visit us in the real three- <br>dimensional world</p>
                 </div>
             </div>
         </div>
@@ -159,12 +160,12 @@
     <footer>
         <div>
             <p class="subtitle">Copyright Cubitts 2022</p>
-            <img src="./Images/footer.png" alt="footer page image">
+            <img src="./Images/footer.png" alt="footer page image" class="footer-image">
         </div>
         <div>
-            <p class="subtitle">In an elegantly-designed yet upbeat and lively London Cubitts' room, a group of people can't wait to read what you're
+            <p class="subtitle">In an elegantly-designed yet upbeat and lively <br> London Cubitts' room, a group of people can't <br> wait to read what you're
             about to write.</p>
-            <p class="subtitle">Contacts below.</p>
+            <p class="subtitle contact-text">Contacts below.</p>
             <ul>
                 <li><i class="fa-regular fa-message"></i>Live chat</li>
                 <li><i class="fa-solid fa-phone"></i>+44 (0) 2076836369</li>
@@ -173,23 +174,38 @@
                 <li><i class="fa-brands fa-instagram"></i>Instagram</li>
                 <li><i class="fa-regular fa-circle-question"></i>Help and FAQ</li>
             </ul>
-            <p class="subtitle">The Newsletter. Sign up for advice on choosing your next spectacles, picking up a complimentary artist-designed cloths,
+            <p class="subtitle footer-info">The Newsletter. Sign up for advice on choosing your next spectacles, picking up a complimentary artist-designed cloths,
             early access to frame making classes and more.</p>
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" class="footer-input">
         </div>
         <div>
             <p class="subtitle">Currency</p>
-            <section>
+            <select class="city">
                 <option value="sweden">Sweden</option>
-            </section>
+            </select>
         </div>
         <div>
-            <p class="subtitle footer-acardion">Sweden<i class="fa-solid fa-angle-down"></i></p>
-            <p class="subtitle footer-acardion">Help<i class="fa-solid fa-angle-down"></i></p>
-            <p class="subtitle footer-acardion">Services<i class="fa-solid fa-angle-down"></i></p>
-            <p class="subtitle footer-acardion">Company<i class="fa-solid fa-angle-down"></i></p>
-            <p class="subtitle footer-acardion">Product<i class="fa-solid fa-angle-down"></i></p>
-            <p class="subtitle">Modernist design principles applied to spectacles that allow you to become your character. Buy rarely, repair when
+            <div class="acardion-box">
+                <p class="subtitle footer-acardion">Sweden</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="acardion-box">
+                <p class="subtitle footer-acardion">Help</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="acardion-box">
+                <p class="subtitle footer-acardion">Services</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="acardion-box">
+                <p class="subtitle footer-acardion">Company</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="acardion-box">
+                <p class="subtitle footer-acardion">Product</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p class="subtitle last-text">Modernist design principles applied to spectacles that allow you to become your character. Buy rarely, repair when
             required.</p>
         </div>
 
